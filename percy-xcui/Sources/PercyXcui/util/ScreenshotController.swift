@@ -1,9 +1,3 @@
-//
-//  File.swift
-//
-//
-//  Created by Pankaj  on 06/02/23.
-//
 import Foundation
 import UIKit
 import XCTest

@@ -1,10 +1,3 @@
-//
-//  GenericProviderTests.swift
-//  xcui-sdk-test-appUITests
-//
-//  Created by Ninad on 14/03/23.
-//
-
 import XCTest
 @testable import PercyXcui
 

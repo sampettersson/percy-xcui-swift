@@ -1,10 +1,3 @@
-//
-//  NetworkHelpers.swift
-//  xcui-sdk-test-appUITests
-//
-//  Created by Ninad on 15/03/23.
-//
-
 import Foundation
 import Hippolyte
 

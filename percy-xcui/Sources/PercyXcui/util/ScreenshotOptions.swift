@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Ninad on 16/03/23.
-//
-
 import Foundation
 
 public class ScreenshotOptions {

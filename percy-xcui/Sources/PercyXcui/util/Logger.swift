@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Ninad on 15/03/23.
-//
-
 import Foundation
 
 class Log {

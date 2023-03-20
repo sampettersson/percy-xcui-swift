@@ -30,7 +30,6 @@ final class AppPercyTests: XCTestCase {
         // does not throw
         try percy.screenshot(name: "abc")
         
-        
         // with throw true
         AppPercy.ignoreErrors = false
         XCTAssertThrowsError(try percy.screenshot(name: "abc")) { error in
@@ -41,4 +40,18 @@ final class AppPercyTests: XCTestCase {
         AppPercy.ignoreErrors = true
     }
     
+    func testScreenshotIfDeviceNotAllowed() throws {
+        // reset network stub
+        NetworkHelpers.stop()
+        // We do not mock postComparison here so that it throws if screenshot is taken
+        NetworkHelpers.start(requests: [NetworkHelpers.stubHealthcheck()])
+        
+        // does not throw
+        AppPercy.ignoreErrors = false
+        AppPercy.allowedDevices = ["Clearly not current phone"]
+        try percy.screenshot(name: "abc")
+        
+        // reset
+        AppPercy.ignoreErrors = true
+    }
 }
