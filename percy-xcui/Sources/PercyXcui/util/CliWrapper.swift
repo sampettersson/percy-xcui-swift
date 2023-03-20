@@ -25,6 +25,11 @@ public class CliWrapper {
         })
         task.resume()
         sem.wait()
+
+        if (ret == false) {
+            Log.info(msg: "Percy CLI is not running, disabling screenshots.")
+        }
+
         return ret
     }
     
