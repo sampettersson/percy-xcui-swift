@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  xcui-sdk-test-app
-//
-//  Created by Ninad on 08/03/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
