@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081AF18A29C45C03009B9DB6 /* percy-xcui in Sources */ = {isa = PBXBuildFile; fileRef = 08BF9C1C29C45AA70053ECAC /* percy-xcui */; };
+		081AF18C29C45C0F009B9DB6 /* PercyXcui in Frameworks */ = {isa = PBXBuildFile; productRef = 081AF18B29C45C0F009B9DB6 /* PercyXcui */; };
+		082BDAED29C208F00036F0A1 /* Hippolyte in Frameworks */ = {isa = PBXBuildFile; productRef = 082BDAEC29C208F00036F0A1 /* Hippolyte */; };
+		082BDAF129C209340036F0A1 /* Hippolyte in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 082BDAF029C209340036F0A1 /* Hippolyte */; };
+		082BDAF429C20C330036F0A1 /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082BDAF329C20C330036F0A1 /* NetworkHelpers.swift */; };
+		082BDAF629C2ED1D0036F0A1 /* AppPercyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082BDAF529C2ED1D0036F0A1 /* AppPercyTests.swift */; };
+		08B5090F29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5090E29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift */; };
+		08B5091129B8AA6D00F9B864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5091029B8AA6D00F9B864 /* ContentView.swift */; };
+		08B5091329B8AA6F00F9B864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B5091229B8AA6F00F9B864 /* Assets.xcassets */; };
+		08B5091629B8AA6F00F9B864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B5091529B8AA6F00F9B864 /* Preview Assets.xcassets */; };
+		08B5092A29B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5092929B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift */; };
+		08D1350729C0909C0061BABA /* MetadataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1350629C0909C0061BABA /* MetadataTests.swift */; };
+		08D1350A29C0A84D0061BABA /* GenericProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1350929C0A84D0061BABA /* GenericProviderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B5092629B8AA7000F9B864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B5090329B8AA6D00F9B864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B5090A29B8AA6D00F9B864;
+			remoteInfo = "xcui-sdk-test-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082BDAF329C20C330036F0A1 /* NetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
+		082BDAF529C2ED1D0036F0A1 /* AppPercyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPercyTests.swift; sourceTree = "<group>"; };
+		08B5090B29B8AA6D00F9B864 /* percy-xcui-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "percy-xcui-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B5090E29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcuiSdkTestAppApp.swift; sourceTree = "<group>"; };
+		08B5091029B8AA6D00F9B864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08B5091229B8AA6F00F9B864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08B5091529B8AA6F00F9B864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08B5092529B8AA7000F9B864 /* percy-xcui-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "percy-xcui-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B5092929B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcuiSdkTestAppUITests.swift; sourceTree = "<group>"; };
+		08BF9C1C29C45AA70053ECAC /* percy-xcui */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "percy-xcui"; sourceTree = "<group>"; };
+		08D1350629C0909C0061BABA /* MetadataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataTests.swift; sourceTree = "<group>"; };
+		08D1350929C0A84D0061BABA /* GenericProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericProviderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B5090829B8AA6D00F9B864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082BDAED29C208F00036F0A1 /* Hippolyte in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B5092229B8AA7000F9B864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082BDAF129C209340036F0A1 /* Hippolyte in Frameworks */,
+				081AF18C29C45C0F009B9DB6 /* PercyXcui in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082BDAF229C20C0C0036F0A1 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				082BDAF329C20C330036F0A1 /* NetworkHelpers.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		08B5090229B8AA6D00F9B864 = {
+			isa = PBXGroup;
+			children = (
+				08B5093829B9C8BE00F9B864 /* Packages */,
+				08B5090D29B8AA6D00F9B864 /* xcui-sdk-test-app */,
+				08B5092829B8AA7000F9B864 /* xcui-sdk-test-appUITests */,
+				08B5090C29B8AA6D00F9B864 /* Products */,
+				08EB887A29B9CEBD0045DC08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08B5090C29B8AA6D00F9B864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B5090B29B8AA6D00F9B864 /* percy-xcui-sdk.app */,
+				08B5092529B8AA7000F9B864 /* percy-xcui-sdkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B5090D29B8AA6D00F9B864 /* xcui-sdk-test-app */ = {
+			isa = PBXGroup;
+			children = (
+				08B5090E29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift */,
+				08B5091029B8AA6D00F9B864 /* ContentView.swift */,
+				08B5091229B8AA6F00F9B864 /* Assets.xcassets */,
+				08B5091429B8AA6F00F9B864 /* Preview Content */,
+			);
+			path = "xcui-sdk-test-app";
+			sourceTree = "<group>";
+		};
+		08B5091429B8AA6F00F9B864 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08B5091529B8AA6F00F9B864 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08B5092829B8AA7000F9B864 /* xcui-sdk-test-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08D1350429C0902D0061BABA /* PercyXcuiSDKTests */,
+				08B5092929B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift */,
+			);
+			path = "xcui-sdk-test-appUITests";
+			sourceTree = "<group>";
+		};
+		08B5093829B9C8BE00F9B864 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				08BF9C1C29C45AA70053ECAC /* percy-xcui */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		08D1350429C0902D0061BABA /* PercyXcuiSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				082BDAF229C20C0C0036F0A1 /* helpers */,
+				08D1350829C0A82E0061BABA /* provider */,
+				08D1350529C090750061BABA /* metadata */,
+				082BDAF529C2ED1D0036F0A1 /* AppPercyTests.swift */,
+			);
+			path = PercyXcuiSDKTests;
+			sourceTree = "<group>";
+		};
+		08D1350529C090750061BABA /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				08D1350629C0909C0061BABA /* MetadataTests.swift */,
+			);
+			path = metadata;
+			sourceTree = "<group>";
+		};
+		08D1350829C0A82E0061BABA /* provider */ = {
+			isa = PBXGroup;
+			children = (
+				08D1350929C0A84D0061BABA /* GenericProviderTests.swift */,
+			);
+			path = provider;
+			sourceTree = "<group>";
+		};
+		08EB887A29B9CEBD0045DC08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08B5090A29B8AA6D00F9B864 /* percy-xcui-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B5092F29B8AA7000F9B864 /* Build configuration list for PBXNativeTarget "percy-xcui-sdk" */;
+			buildPhases = (
+				08B5090729B8AA6D00F9B864 /* Sources */,
+				08B5090829B8AA6D00F9B864 /* Frameworks */,
+				08B5090929B8AA6D00F9B864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "percy-xcui-sdk";
+			packageProductDependencies = (
+				082BDAEC29C208F00036F0A1 /* Hippolyte */,
+			);
+			productName = "xcui-sdk-test-app";
+			productReference = 08B5090B29B8AA6D00F9B864 /* percy-xcui-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08B5092429B8AA7000F9B864 /* percy-xcui-sdkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B5093529B8AA7000F9B864 /* Build configuration list for PBXNativeTarget "percy-xcui-sdkUITests" */;
+			buildPhases = (
+				08B5092129B8AA7000F9B864 /* Sources */,
+				08B5092229B8AA7000F9B864 /* Frameworks */,
+				08B5092329B8AA7000F9B864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				081AF18929C45BF7009B9DB6 /* PBXTargetDependency */,
+				082BDAEF29C209000036F0A1 /* PBXTargetDependency */,
+				08B5092729B8AA7000F9B864 /* PBXTargetDependency */,
+			);
+			name = "percy-xcui-sdkUITests";
+			packageProductDependencies = (
+				082BDAF029C209340036F0A1 /* Hippolyte */,
+				081AF18B29C45C0F009B9DB6 /* PercyXcui */,
+			);
+			productName = "xcui-sdk-test-appUITests";
+			productReference = 08B5092529B8AA7000F9B864 /* percy-xcui-sdkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B5090329B8AA6D00F9B864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					08B5090A29B8AA6D00F9B864 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					08B5092429B8AA7000F9B864 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 08B5090A29B8AA6D00F9B864;
+					};
+				};
+			};
+			buildConfigurationList = 08B5090629B8AA6D00F9B864 /* Build configuration list for PBXProject "percy-xcui-sdk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08B5090229B8AA6D00F9B864;
+			packageReferences = (
+				082BDAEB29C208F00036F0A1 /* XCRemoteSwiftPackageReference "Hippolyte" */,
+			);
+			productRefGroup = 08B5090C29B8AA6D00F9B864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B5090A29B8AA6D00F9B864 /* percy-xcui-sdk */,
+				08B5092429B8AA7000F9B864 /* percy-xcui-sdkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B5090929B8AA6D00F9B864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B5091629B8AA6F00F9B864 /* Preview Assets.xcassets in Resources */,
+				08B5091329B8AA6F00F9B864 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B5092329B8AA7000F9B864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B5090729B8AA6D00F9B864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B5091129B8AA6D00F9B864 /* ContentView.swift in Sources */,
+				08B5090F29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B5092129B8AA7000F9B864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081AF18A29C45C03009B9DB6 /* percy-xcui in Sources */,
+				082BDAF429C20C330036F0A1 /* NetworkHelpers.swift in Sources */,
+				08D1350A29C0A84D0061BABA /* GenericProviderTests.swift in Sources */,
+				082BDAF629C2ED1D0036F0A1 /* AppPercyTests.swift in Sources */,
+				08D1350729C0909C0061BABA /* MetadataTests.swift in Sources */,
+				08B5092A29B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		081AF18929C45BF7009B9DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 081AF18829C45BF7009B9DB6 /* PercyXcui */;
+		};
+		082BDAEF29C209000036F0A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			productRef = 082BDAEE29C209000036F0A1 /* Hippolyte */;
+		};
+		08B5092729B8AA7000F9B864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 08B5090A29B8AA6D00F9B864 /* percy-xcui-sdk */;
+			targetProxy = 08B5092629B8AA7000F9B864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B5092D29B8AA7000F9B864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08B5092E29B8AA7000F9B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08B5093029B8AA7000F9B864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xcui-sdk-test-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 59B34A37Y4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ninad.xcui-sdk-test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08B5093129B8AA7000F9B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xcui-sdk-test-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 59B34A37Y4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ninad.xcui-sdk-test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08B5093629B8AA7000F9B864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59B34A37Y4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ninad.xcui-sdk-test-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "percy-xcui-sdk";
+			};
+			name = Debug;
+		};
+		08B5093729B8AA7000F9B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59B34A37Y4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ninad.xcui-sdk-test-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "percy-xcui-sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B5090629B8AA6D00F9B864 /* Build configuration list for PBXProject "percy-xcui-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B5092D29B8AA7000F9B864 /* Debug */,
+				08B5092E29B8AA7000F9B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B5092F29B8AA7000F9B864 /* Build configuration list for PBXNativeTarget "percy-xcui-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B5093029B8AA7000F9B864 /* Debug */,
+				08B5093129B8AA7000F9B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B5093529B8AA7000F9B864 /* Build configuration list for PBXNativeTarget "percy-xcui-sdkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B5093629B8AA7000F9B864 /* Debug */,
+				08B5093729B8AA7000F9B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		082BDAEB29C208F00036F0A1 /* XCRemoteSwiftPackageReference "Hippolyte" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:JanGorman/Hippolyte.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		081AF18829C45BF7009B9DB6 /* PercyXcui */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PercyXcui;
+		};
+		081AF18B29C45C0F009B9DB6 /* PercyXcui */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PercyXcui;
+		};
+		082BDAEC29C208F00036F0A1 /* Hippolyte */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 082BDAEB29C208F00036F0A1 /* XCRemoteSwiftPackageReference "Hippolyte" */;
+			productName = Hippolyte;
+		};
+		082BDAEE29C209000036F0A1 /* Hippolyte */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 082BDAEB29C208F00036F0A1 /* XCRemoteSwiftPackageReference "Hippolyte" */;
+			productName = Hippolyte;
+		};
+		082BDAF029C209340036F0A1 /* Hippolyte */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 082BDAEB29C208F00036F0A1 /* XCRemoteSwiftPackageReference "Hippolyte" */;
+			productName = Hippolyte;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08B5090329B8AA6D00F9B864 /* Project object */;
+}
