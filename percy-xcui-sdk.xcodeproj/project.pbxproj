@@ -13,11 +13,11 @@
 		082BDAF129C209340036F0A1 /* Hippolyte in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 082BDAF029C209340036F0A1 /* Hippolyte */; };
 		082BDAF429C20C330036F0A1 /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082BDAF329C20C330036F0A1 /* NetworkHelpers.swift */; };
 		082BDAF629C2ED1D0036F0A1 /* AppPercyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082BDAF529C2ED1D0036F0A1 /* AppPercyTests.swift */; };
-		08B5090F29B8AA6D00F9B864 /* xcui_sdk_test_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5090E29B8AA6D00F9B864 /* xcui_sdk_test_appApp.swift */; };
+		08B5090F29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5090E29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift */; };
 		08B5091129B8AA6D00F9B864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5091029B8AA6D00F9B864 /* ContentView.swift */; };
 		08B5091329B8AA6F00F9B864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B5091229B8AA6F00F9B864 /* Assets.xcassets */; };
 		08B5091629B8AA6F00F9B864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B5091529B8AA6F00F9B864 /* Preview Assets.xcassets */; };
-		08B5092A29B8AA7000F9B864 /* xcui_sdk_test_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5092929B8AA7000F9B864 /* xcui_sdk_test_appUITests.swift */; };
+		08B5092A29B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5092929B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift */; };
 		08D1350729C0909C0061BABA /* MetadataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1350629C0909C0061BABA /* MetadataTests.swift */; };
 		08D1350A29C0A84D0061BABA /* GenericProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1350929C0A84D0061BABA /* GenericProviderTests.swift */; };
 /* End PBXBuildFile section */
@@ -36,12 +36,12 @@
 		082BDAF329C20C330036F0A1 /* NetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
 		082BDAF529C2ED1D0036F0A1 /* AppPercyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPercyTests.swift; sourceTree = "<group>"; };
 		08B5090B29B8AA6D00F9B864 /* percy-xcui-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "percy-xcui-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		08B5090E29B8AA6D00F9B864 /* xcui_sdk_test_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcui_sdk_test_appApp.swift; sourceTree = "<group>"; };
+		08B5090E29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcuiSdkTestAppApp.swift; sourceTree = "<group>"; };
 		08B5091029B8AA6D00F9B864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08B5091229B8AA6F00F9B864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08B5091529B8AA6F00F9B864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08B5092529B8AA7000F9B864 /* percy-xcui-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "percy-xcui-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		08B5092929B8AA7000F9B864 /* xcui_sdk_test_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcui_sdk_test_appUITests.swift; sourceTree = "<group>"; };
+		08B5092929B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcuiSdkTestAppUITests.swift; sourceTree = "<group>"; };
 		08BF9C1C29C45AA70053ECAC /* percy-xcui */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "percy-xcui"; sourceTree = "<group>"; };
 		08D1350629C0909C0061BABA /* MetadataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataTests.swift; sourceTree = "<group>"; };
 		08D1350929C0A84D0061BABA /* GenericProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericProviderTests.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		08B5090D29B8AA6D00F9B864 /* xcui-sdk-test-app */ = {
 			isa = PBXGroup;
 			children = (
-				08B5090E29B8AA6D00F9B864 /* xcui_sdk_test_appApp.swift */,
+				08B5090E29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift */,
 				08B5091029B8AA6D00F9B864 /* ContentView.swift */,
 				08B5091229B8AA6F00F9B864 /* Assets.xcassets */,
 				08B5091429B8AA6F00F9B864 /* Preview Content */,
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				08D1350429C0902D0061BABA /* PercyXcuiSDKTests */,
-				08B5092929B8AA7000F9B864 /* xcui_sdk_test_appUITests.swift */,
+				08B5092929B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift */,
 			);
 			path = "xcui-sdk-test-appUITests";
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08B5091129B8AA6D00F9B864 /* ContentView.swift in Sources */,
-				08B5090F29B8AA6D00F9B864 /* xcui_sdk_test_appApp.swift in Sources */,
+				08B5090F29B8AA6D00F9B864 /* XcuiSdkTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 				08D1350A29C0A84D0061BABA /* GenericProviderTests.swift in Sources */,
 				082BDAF629C2ED1D0036F0A1 /* AppPercyTests.swift in Sources */,
 				08D1350729C0909C0061BABA /* MetadataTests.swift in Sources */,
-				08B5092A29B8AA7000F9B864 /* xcui_sdk_test_appUITests.swift in Sources */,
+				08B5092A29B8AA7000F9B864 /* XcuiSdkTestAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

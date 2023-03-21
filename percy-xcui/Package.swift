@@ -6,7 +6,7 @@ let package = Package(
     products: [
         .library(
             name: "PercyXcui",
-            targets: ["PercyXcui"]),
+            targets: ["PercyXcui"])
     ],
     dependencies: [
     ],
