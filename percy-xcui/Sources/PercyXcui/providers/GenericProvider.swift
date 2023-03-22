@@ -41,8 +41,7 @@ public class GenericProvider {
       "osVersion": metadata.platformVersion(),
       "width": metadata.deviceScreenWidth(),
       "height": metadata.deviceScreenHeight(),
-      "orientation": metadata.orientation(),
-      "fullscreen": options.fullScreen
+      "orientation": metadata.orientation()
     ]
     return jsonObject
   }
