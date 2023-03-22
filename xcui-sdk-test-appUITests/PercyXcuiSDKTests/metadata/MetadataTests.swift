@@ -13,6 +13,10 @@ final class MetadataTests: XCTestCase {
     XCTAssertEqual(meta.osName(), "iOS")
   }
 
+  func testPlatformVersion() throws {
+    XCTAssertEqual(meta.platformVersion(), String(UIDevice.current.systemVersion.split(separator: ".").first ?? ""))
+  }
+
   func testOrientation() throws {
     XCUIDevice.shared.orientation = UIDeviceOrientation.portrait
     XCTAssertEqual(XCUIDevice.shared.orientation.isPortrait, true)

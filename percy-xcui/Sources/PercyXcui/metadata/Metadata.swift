@@ -14,7 +14,7 @@ internal class Metadata {
   }
 
   public func platformVersion() -> String {
-    return UIDevice.current.systemVersion
+    return String(UIDevice.current.systemVersion.split(separator: ".").first ?? "")
   }
 
   public func orientation() -> String {
