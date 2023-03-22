@@ -14,7 +14,7 @@ final class MetadataTests: XCTestCase {
   }
 
   func testPlatformVersion() throws {
-    XCTAssertEqual(meta.platformVersion(), UIDevice.current.systemVersion.componentsSeparatedByString(".")[0])
+    XCTAssertEqual(meta.platformVersion(), String(UIDevice.current.systemVersion.split(separator: ".").first ?? ""))
   }
 
   func testOrientation() throws {
