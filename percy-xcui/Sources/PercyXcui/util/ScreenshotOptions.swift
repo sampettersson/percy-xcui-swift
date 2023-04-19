@@ -1,10 +1,10 @@
 import Foundation
 
 public class ScreenshotOptions {
-  var statusBarHeight: Int = -1
-  var navigationBarHeight: Int = -1
+  public var statusBarHeight: Int = -1
+  public var navigationBarHeight: Int = -1
 
-  var fullScreen: Bool = false
+  public var fullScreen: Bool = false
 
   public init() {
   }
