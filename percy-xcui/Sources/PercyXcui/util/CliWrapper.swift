@@ -23,7 +23,7 @@ public class CliWrapper {
         }
         if let response: HTTPURLResponse = response as? HTTPURLResponse {
           Log.debug(msg: "Healthcheck statusCode: \(response.statusCode)")
-          Log.debug(msg: "Headers: \(response.allHeaderFields)")
+          Log.info(msg: "Headers: \(response.allHeaderFields)")
           ret = true
         }
       })

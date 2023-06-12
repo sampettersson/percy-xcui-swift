@@ -7,7 +7,7 @@ public class AppPercy {
   // swiftlint:disable:next identifier_name
   static var _allowedDevicesMessageShown: Bool = false
 
-  static func setLogLevel(level: String = "info") {
+  static public func setLogLevel(level: String = "info") {
     Log.logLevel = level
   }
 
