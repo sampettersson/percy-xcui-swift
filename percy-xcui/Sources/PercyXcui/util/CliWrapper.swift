@@ -29,13 +29,12 @@ public class CliWrapper {
             let versionArr = version.components(separatedBy: ".")
             let majorVersion: Int = Int(versionArr[0]) ?? 0
             let minorVersion: Int = Int(versionArr[1]) ?? 0
-            let revision: Int = Int(versionArr[2]) ?? 0
 
             if majorVersion < 1 {
               Log.info(msg: "Unsupported Percy CLI version, \(version)")
               ret = false
             } else {
-              if minorVersion < 24 && revision < 1 {
+              if minorVersion < 24 {
                   Log.info(msg: "Percy CLI version, \(version) is not the minimum version required," +
                     "some features might not work as expected.")
               }
