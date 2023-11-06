@@ -14,8 +14,13 @@ public class AppPercy {
   let cliWrapper: CliWrapper
   var isPercyEnabled: Bool
 
-  public init() {
-    self.cliWrapper = CliWrapper()
+  public init(percyCLIHostname: String? = nil) {
+    if let percyCLIHostname {
+      self.cliWrapper = CliWrapper(serverHostname: percyCLIHostname)
+    } else {
+      self.cliWrapper = CliWrapper()
+    }
+
     self.isPercyEnabled = cliWrapper.healthcheck()
   }
 
